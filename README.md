@@ -38,7 +38,7 @@ Now comes the most complicated part. You could enter the VM arguments in every J
 you make, or you can enter them here in the Default VM arguments. Highly recommended to do it here. So, the idea is
 that the arguments you put here are very magic. They come in three segments, first are arguments I use to
 convert the java arguments to run in the docker image, second are arguments to docker to run the
-container, and third are any default java arguments, which there usually aren't.
+container, and third are any default java arguments.
 
 My arguments are first and are as follows:
 
