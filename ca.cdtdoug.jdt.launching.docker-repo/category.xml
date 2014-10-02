@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <category-def name="main" label="Docker Remote Launching"/>
+   <feature id="ca.cdtdoug.jdt.launching.docker" version="0.0.0">
+      <category name="main"/>
+   </feature>
+</site>

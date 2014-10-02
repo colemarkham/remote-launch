@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ca.cdtdoug.jdt.launching.docker"
+      label="Docker Remote Java VM Installer"
+      version="1.0.0.qualifier"
+      provider-name="Doug Schaefer"
+      license-feature="org.eclipse.license"
+      license-feature-version="0.0.0">
+
+   <description>
+      JDT VM Installer for remote launching Java applications in Docker.
+   </description>
+
+   <copyright>
+      Copyright 2014 QNX Software Systems
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="ca.cdtdoug.jdt.launching.docker"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

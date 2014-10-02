@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Docker
+Bundle-SymbolicName: ca.cdtdoug.jdt.launching.docker;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: ca.cdtdoug.jdt.launching.docker.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.jdt.launching,
+ org.eclipse.debug.core,
+ org.eclipse.jdt.debug.ui;bundle-version="3.6.300"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Import-Package: com.sun.jdi,
+ com.sun.jdi.connect
