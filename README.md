@@ -14,6 +14,7 @@ projects in Eclipse on the host. You need to be able to share all the files need
 application into your Docker container. For boot2docker, that means you need to first share your
 files into the VirtualBox VM. That means using a boot2docker image that supports the folder sharing
 in the VirtualBox Guest Additions. Google around to find instructions on how to set that up.
+I have /Users mounted as /Users in the VM which is what they generally recommend and for good reason.
 Then from there, you share your folders into the Docker container by specifying volumes. More on that
 in a minute.
 
