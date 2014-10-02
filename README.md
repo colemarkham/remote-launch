@@ -42,7 +42,7 @@ container, and third are any default java arguments.
 
 My arguments are first and are as follows:
 
-    -h - the IP address of the host as seen from the Docker container
+    -h ip - the IP address of the host as seen from the Docker container
     -t hostPath:dockerPath - used to translate host paths to docker paths
 
 The IP address is important since Eclipse starts up and expects the JRE to connect to it. Now if you
