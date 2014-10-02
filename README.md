@@ -35,7 +35,7 @@ I'm actually reusing the Standard VM type which gives us alot of things like tha
 it a name, probably something with the word docker in it so you can tell it apart from the local JREs.
 
 Now comes the most complicated part. You could enter the VM arguments in every Java launch configuration
-you make, or you can enter them here in the Default VM arguments. Highly recommended. So, the idea is
+you make, or you can enter them here in the Default VM arguments. Highly recommended to do it here. So, the idea is
 that the arguments you put here are very magic. They come in three segments, first are arguments I use to
 convert the java arguments to run in the docker image, second are arguments to docker to run the
 container, and third are any default java arguments, which there usually aren't.
