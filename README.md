@@ -4,7 +4,7 @@ docker-launch
 The Docker launch Eclipse plug-in provides a Java VM installer plugin for JDT that lets you define
 a JRE that will actually run docker to start up a container to run your Java application.
 
-This work started from my own personal need to run use Eclipse on my Mac but run the Java application
+This work started from my own personal need to use Eclipse on my Mac but run the Java application
 I'm building in a Docker container running in my boot2docker VM. So while this should work in other
 environments I can't promise anything until it gets tested there. So consider this BETA quality
 and report anything you find in the issues in my github repo.
