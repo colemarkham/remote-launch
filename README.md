@@ -44,6 +44,7 @@ My arguments are first and are as follows:
 
     -h ip - the IP address of the host as seen from the Docker container
     -t hostPath:dockerPath - used to translate host paths to docker paths
+    -j java - replacement command for java if you need to use something else
 
 The IP address is important since Eclipse starts up and expects the JRE to connect to it. Now if you
 can't see your host from the Docker image then we've got a problem. And I have a feeling we will
