@@ -30,7 +30,7 @@ http://dl.bintray.com/cdtdoug/docker-launch
 
 After you restart, go into your Eclipse Preferences and select Java -> Installed JREs. Click Add...
 You'll see Docker Remote JRE there. Select it and click next. In the JRE home field, put the
-location where you extracted the JRE. You should see the system libraries show up. If you're interested
+location where you extracted the JRE on your host. You should see the system libraries show up. If you're interested
 I'm actually reusing the Standard VM type which gives us alot of things like that for free. Next give
 it a name, probably something with the word docker in it so you can tell it apart from the local JREs.
 
