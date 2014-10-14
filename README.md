@@ -1,5 +1,12 @@
+remote-launch
+=============
+
+Forked from dschaefer's docker-launch to provide a more generic remote launch functionality using ssh or some other transport. Also, it should support launching a Windows JRE inside a VM (e.g. Parallels, VMWare, VirtualBox) from Eclipse running in a Mac OSX host.
+
+
 docker-launch
 =============
+
 
 The Docker launch Eclipse plug-in provides a Java VM installer plugin for JDT that lets you define
 a JRE that will actually run docker to start up a container to run your Java application.
